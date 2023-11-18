@@ -19,7 +19,7 @@ useEffect(()=>{
     <div className='flex flex-wrap gap-3 mx-1 mt-4'>
         {data.map((item)=>
           <div >
-    <div class="card" key={item.id} className='w-[300px] h-[400px] border-2 border-red-400 shadow-md bg-gray-200'>
+    <div class="card" key={item.id} className='w-[300px] h-[400px] border-2 border-red-400 shadow-md bg-pink-200'>
     <img src={item.image} class="card-img-top" alt="..." className='w-[100px] h-[100px] ml-[100px] mt-7'/>
     <div class="card-body" className='mt-10'>
       <h5 class="card-title">{item.title}</h5>

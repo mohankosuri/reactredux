@@ -5,7 +5,7 @@ const AboutUs = () => {
     <div className="bg-gray-100 py-12">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-bold text-gray-800 mb-6">
-          Welcome to <span className='text-red-500'>Neo Desire</span>
+          Welcome to <span className='text-red-500'>Trendy Shop</span>
         </h2>
         <p className="text-gray-600 leading-loose">
           At Neo Desire, we believe in the power of quality and the joy of
