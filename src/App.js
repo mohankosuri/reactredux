@@ -6,7 +6,7 @@ import { Route,Routes } from 'react-router-dom';
 import Dashboard from './components/Dashboard';
 import Cart from './components/Cart';
 import Navbar from './components/Navbar';
-import Todolist from './components/Todolist';
+ 
 import AboutUs from './components/AboutUs';
 import ContactUs from './components/ContactUs';
  
@@ -39,7 +39,7 @@ return show ?  <div>
  </Routes>
 
 
-</div>:<div><Todolist/>
+</div>:<div> hello
  
 </div>
 
