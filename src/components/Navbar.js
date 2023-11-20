@@ -11,7 +11,7 @@ const Navbar = () => {
     <div className="flex-1 space-x-6">
       
        
-      <img src={Logo} width={130} height={100} alt='logo'></img>
+      <img src={Logo} width={100} height={100} alt='logo'></img>
       <NavLink className="text-white hover:text-red-500 no-underline" to={'/products'}>Products</NavLink>
       <NavLink className="text-white hover:text-red-500 no-underline" to={'/dashboard'}>Dashboard</NavLink>
       <NavLink className="text-white hover:text-red-500 no-underline" to={'/aboutus'}>About</NavLink>
