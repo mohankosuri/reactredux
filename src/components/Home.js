@@ -8,10 +8,7 @@
  import Card from './Card'
  const Home = () => {
   
-  const cliking =()=>{
-    alert("hello")
-  }
-
+   
   const thems1 =useContext(Themecontext)
   console.log(thems1)
   
