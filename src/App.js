@@ -64,11 +64,11 @@ function App() {
 
    const [count, setCount] = useState(0)
 
-   const countContext = createContext()
+    
 
    const [movies, setMovies] = useState([])
 
-      
+
 
    const increment = () => {
       setCount(count + 1)
